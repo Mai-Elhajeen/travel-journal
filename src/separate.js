@@ -30,3 +30,4 @@ export default [
         imgURL: './img/Norway.jpg'
     }
 ]
+
