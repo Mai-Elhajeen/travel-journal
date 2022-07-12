@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
       <header className='header'>
-        <i class="ri-earth-fill"></i>
+        <i class="ri-earth-line"></i>
         <p>my travel journal.</p>
       </header>
   )
