@@ -2,7 +2,10 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Header</div>
+      <header className='header'>
+        <i class="ri-earth-line"></i>
+        <p>my travel journal.</p>
+      </header>
   )
 }
 
