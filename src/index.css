@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+/* start header */
 header {
   height: 70px;
   background: #F55A5A;
@@ -27,4 +28,60 @@ header i {
 header p {
   font-size: 18px;
   color: #fff;
+}
+
+/* start main */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 80px;
+}
+img {
+  width: 100%;
+  height: 240px;
+  border-radius: 16px;
+}
+
+.travel {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+}
+.div-img {
+  flex-basis: 40%;
+}
+.content-travel {
+  flex-basis: 60%;
+  margin-left: 24px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-place {
+  display: flex;
+  align-items: center;
+}
+i.ri-map-pin-line {
+  font-size: 24px;
+  color: #f55a5a;
+  padding-right: 4px;
+}
+h1.title-travel {
+  margin: 0;
+}
+
+a.google-map {
+  color: #918E9B;
+}
+
+.date {
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+}
+.description {
+  font-size: 14px;
 }
