@@ -1,9 +1,8 @@
 import React from 'react'
 
-function Main() {
+function Main(props) {
   return (
-    <main>
-      <div className='travel'>
+    <div className='travel'>
         <div className='div-img'>
           <img src='./img/Japan.jpg' alt='travel-place' />
         </div>
@@ -32,8 +31,7 @@ function Main() {
             Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.
           </div>
         </div>
-      </div>
-    </main>
+    </div>
   )
 }
 
