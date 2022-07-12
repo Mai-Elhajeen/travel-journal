@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-      <header>
+      <header className='header'>
         <i class="ri-earth-fill"></i>
         <p>my travel journal.</p>
       </header>
